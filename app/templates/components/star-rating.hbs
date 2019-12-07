@@ -1,13 +1,13 @@
 {{#if hasBlock}}
-{{yield stars}}
+  {{yield stars}}
 {{else}}
-{{#each stars as |star|}}
-<a href="#" onclick={{action "setRating" star.rating}}>
-    {{#if star.isFull}}
-    {{fa-icon 'star'}}
-    {{else}}
-    {{fa-icon 'star-o'}}
-    {{/if}}
-</a>
-{{/each}}
+  {{#each stars as |star|}}
+    <a href="#" onclick={{action "setRating" star.rating}}>
+      {{#if star.isFull}}
+        {{fa-icon "star"}}
+      {{else}}
+        {{fa-icon "star-o"}}
+      {{/if}}
+    </a>
+  {{/each}}
 {{/if}}
