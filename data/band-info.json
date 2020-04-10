@@ -1,0 +1,29 @@
+{
+  "data": 
+  [
+    {
+      "id": "pearl-jam",
+      "type": "bands",
+      "links": {
+      "self": "http://rarwe.local/bands/pearl-jam"
+    },
+    "attributes": 
+      {
+        "name": "Pearl Jam",
+        "description": "Pearl Jam is an American rock band, formed in Seattle, Washington in 1990."
+      },
+    "relationships": 
+      {
+        "songs": 
+        {
+          "links": 
+          {
+            "self": "http://rarwe.local/bands/pearl-jam/relationships/songs",
+            "related": "http://rarwe.local/bands/pearl-jam/songs"
+          }
+        }
+      }
+    }
+  ]
+}
+  
